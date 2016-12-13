@@ -8,6 +8,7 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { CalculateIonicPage } from '../pages/calculate/calculate-ionic';
 import { HomePage } from '../pages/home/home';
+import { FloorPage } from '../pages/floor/floor';
 
 
 @Component({
@@ -30,7 +31,7 @@ export class MyApp {
     // set our app's pages
     this.pages = [
       { icon:'ios-home-outline', title: '首页', component: HelloIonicPage },
-      { icon:'ios-thumbs-up-outline', title: '炫耀走廊', component: HomePage },
+      { icon:'ios-thumbs-up-outline', title: '炫耀走廊', component: FloorPage },
       { icon:'ios-people-outline', title: '大伽说', component: ListPage },
       { icon:'ios-calculator-outline', title: '收益测算', component: CalculateIonicPage },
       { icon:'ios-cash-outline', title: '充值服务', component: ListPage },
