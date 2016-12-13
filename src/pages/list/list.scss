@@ -1,0 +1,31 @@
+page-list {
+
+	.button-ios {
+	    margin: 0;
+	    padding: 0 1em;
+	    height: 1.8em;
+	    font-size: 2.0rem;
+	    color: #fff;
+	    background-color: #e13838;
+	} 
+	.button-ios.activated {
+		background-color: #e13838;
+	}
+	ion-row:first-child{
+		font-size: 1.6rem;
+		color:#e13838;
+	}
+	ion-row{
+		border-bottom: 0.8px solid #999;
+		font-size: 1.5rem;
+		line-height: 2.0rem;
+		color:#142440;
+		padding-left: 8px;
+	}
+	ion-row:nth-child(even){
+		background:#d4e4ff;
+		/*color: #fff;*/
+	}
+
+
+}

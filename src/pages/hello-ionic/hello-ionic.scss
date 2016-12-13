@@ -1,0 +1,95 @@
+page-hello-ionic {
+	.toolbar-background-ios {
+	    border-color: #e13838;
+	}
+	.toolbar-title-ios {
+	    font-size: 1.5rem;
+	    font-weight: 100; 
+	}
+	.card-ios {
+	    margin: 0px 0px 1px 0px;
+	    width: 100%;
+	    min-height: 160px;
+	    max-height: 200px;
+	    height: 30%;
+	    background: #e13838;
+	}
+	.card-ios h2{
+		color: #fff;
+		font-size: 3.0rem;
+		text-align: center;
+		padding-top: 8px;
+		padding-bottom: 15px;
+	}
+	ion-col{
+		color:#142440
+	}
+	ion-col i{
+		color: #fff;
+	}
+	.usas{
+	    max-height: 50px;
+	}
+	.list-ios > .item-block{
+    	border-bottom: 0.55px solid #c8c7cc;
+	}
+	.usas.list-ios > .item-block{
+		background: #e13838;
+	}
+	.item > ion-icon{
+		font-size: 1.6rem;
+	}
+	.item-inner > ion-icon {
+		line-height: 1.6rem;
+    	font-size: 1.2rem;
+    	color: #fff;
+	}
+	.infomation p{
+		padding-left: 8px;
+    	color:#242f40;
+    	font-size: 1.2rem;
+    	font-weight:bold;
+	}
+	.item-ios p {
+		margin: 0;
+	}
+	.infomation span{
+		padding-left: 4px;
+		font-size: 1.4rem;
+	}
+	.percent{
+		font-size: 1.4rem;
+	}
+	.infomation > .item-ios {
+	    padding-left: 20px;
+	}
+	.label-ios span:first-child{
+		font-size: 1.5rem;
+		font-weight:bold;
+		color: #092d6b;
+		line-height: 2.5rem;
+	}
+	ion-col[width-75] {
+	    font-size: 1.4rem;
+	}
+	.infomation .item-block {
+		min-height: 3.0rem;
+	}
+	.infomation .label-ios {
+    	 margin: 0;
+	}
+	.list-ios > .item-block:first-child{
+    	border-top: 0.55px solid #fff;
+	}
+	.button-ios {
+    	margin-top: -0.5em; 
+   		height: 2em;
+   		font-size: 2.4rem;
+   	}
+   	.icon-ios-danger {
+    	color: #f75858;
+	}
+	.icon-ios-primary {
+    	color: #4a8af5;
+	}
+}
