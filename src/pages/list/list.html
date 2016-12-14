@@ -5,28 +5,82 @@
     </button>
     <ion-title>历史行情</ion-title>
   </ion-navbar>
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="listInfo">
+        行情列表
+      </ion-segment-button>
+      <ion-segment-button value="kittens">
+        数据分析
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
-<ion-content>
-  
-  <ion-row>
-    <ion-col>日期</ion-col>
-    <ion-col>黄金价</ion-col>
-    <ion-col>美元指数</ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>2016-10-24</ion-col>
-    <ion-col>278.21</ion-col>
-    <ion-col>102.12</ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>2016-10-24</ion-col>
-    <ion-col>278.21</ion-col>
-    <ion-col>102.12</ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>2016-10-24</ion-col>
-    <ion-col>278.21</ion-col>
-    <ion-col>102.12</ion-col>
-  </ion-row>
 
+<ion-content>
+  <div [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'listInfo'" class="listInfo">
+        <ion-row>
+          <ion-col>日期</ion-col>
+          <ion-col>黄金价</ion-col>
+          <ion-col>美元指数</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>2016-10-24</ion-col>
+          <ion-col>278.21</ion-col>
+          <ion-col>102.12</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>2016-10-24</ion-col>
+          <ion-col>278.21</ion-col>
+          <ion-col>102.12</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>2016-10-24</ion-col>
+          <ion-col>278.21</ion-col>
+          <ion-col>102.12</ion-col>
+        </ion-row>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'kittens'" class="kittens">
+      <ion-card>
+        <ion-card-header>
+          2016年12月
+        </ion-card-header>
+        <ion-card-content>
+          <p>黄金au9999</p>
+          <ion-row>
+          <ion-col><i class="t1">278</i><br>最高</ion-col>
+            <ion-col><i class="t2">262</i><br>最低</ion-col>
+            <ion-col><i class="t3">12</i><br>差额</ion-col>
+          </ion-row>
+          <p>美元指数</p>
+          <ion-row>
+            <ion-col><i class="t1">278</i><br>最高</ion-col>
+            <ion-col><i class="t2">262</i><br>最低</ion-col>
+            <ion-col><i class="t3">12</i><br>差额</ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-header>
+          2016年11月
+        </ion-card-header>
+        <ion-card-content>
+          <p>黄金au9999</p>
+          <ion-row>
+          <ion-col><i class="t1">278</i><br>最高</ion-col>
+            <ion-col><i class="t2">262</i><br>最低</ion-col>
+            <ion-col><i class="t3">12</i><br>差额</ion-col>
+          </ion-row>
+          <p>美元指数</p>
+          <ion-row>
+            <ion-col><i class="t1">278</i><br>最高</ion-col>
+            <ion-col><i class="t2">262</i><br>最低</ion-col>
+            <ion-col><i class="t3">12</i><br>差额</ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+  </div>
 </ion-content>

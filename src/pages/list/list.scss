@@ -12,7 +12,7 @@ page-list {
 	.button-ios.activated {
 		background-color: #e13838;
 	}
-	ion-row:first-child{
+	.listInfo ion-row:first-child{
 		font-size: 1.6rem;
 		color:#e13838;
 	}
@@ -23,9 +23,55 @@ page-list {
 		color:#142440;
 		padding-left: 8px;
 	}
-	ion-row:nth-child(even){
+	.listInfo ion-row:nth-child(even){
 		background:#d4e4ff;
 		/*color: #fff;*/
+	}
+	.toolbar-ios .segment-ios {
+	    background: #fff;
+	    border-bottom: 0.55px solid #ddd;
+	}
+	.toolbar-ios .segment-button {
+    	max-width: 200px;
+    }
+    .segment-ios .segment-button:first-of-type, .segment-ios .segment-button:last-of-type{
+	    border-radius: 0 0 0 0;
+	}
+	.segment-ios .segment-button.segment-activated {
+	    background-color: #607D8B;
+    }
+    .segment-ios .segment-button {
+    	border-color: #607D8B;
+    	color: #607D8B;
+    }
+    .card-ios ion-card-header {
+	    /*color:#fff;
+	    background: #42555f;
+	    border-bottom: 1px solid #ddd;*/
+	    color: #070811;
+	    background: #dde1e4;
+	    border-bottom: 1px solid #9ea4a9;
+	}
+	.kittens ion-card-content p{
+		font-size:1.6rem;
+		color: #5a443c;
+		line-height: 2.2rem;
+	}
+	.kittens ion-row{
+		border-bottom: 0.8px solid #fff;
+		text-align: center;
+	}
+	.t1, .t2, .t3{
+		font-size: 2.1rem;
+	}
+	.t1{
+		color:#f44336;
+	}
+	.t2{
+		color:#8bc34a;
+	}
+	.t3{
+		color:#2196F3;
 	}
 
 
