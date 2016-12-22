@@ -9,6 +9,10 @@ import { ListPage } from '../pages/list/list';
 import { CalculateIonicPage } from '../pages/calculate/calculate-ionic';
 import { HomePage } from '../pages/home/home';
 import { FloorPage } from '../pages/floor/floor';
+import { ServePage } from '../pages/serve/serve';
+import { AboutPage } from '../pages/about/about';
+import { LoginPage } from '../pages/login/login';
+
 
 
 @Component({
@@ -34,8 +38,9 @@ export class MyApp {
       { icon:'ios-thumbs-up-outline', title: '炫耀走廊', component: FloorPage },
       { icon:'ios-people-outline', title: '大伽说', component: ListPage },
       { icon:'ios-calculator-outline', title: '收益测算', component: CalculateIonicPage },
-      { icon:'ios-cash-outline', title: '充值服务', component: ListPage },
-      { icon:'ios-contact-outline', title: '关于我们', component: ListPage },
+      { icon:'ios-cash-outline', title: '充值服务', component: ServePage },
+      { icon:'ios-contact-outline', title: '关于我们', component: AboutPage },
+      { icon:'ios-contact-outline', title: '关于我们', component: HomePage },
     
     ];
   }
@@ -54,5 +59,10 @@ export class MyApp {
     this.menu.close();
     // navigate to the new page if it is not the current page
     this.nav.setRoot(page.component);
+  }
+
+  loginOut(){
+    this.menu.close();
+    this.nav.setRoot(LoginPage);
   }
 }

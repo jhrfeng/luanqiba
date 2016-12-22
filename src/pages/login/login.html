@@ -1,0 +1,31 @@
+<ion-header>
+   <ion-navbar hideBackButton>
+	    <button ion-button (click)="goBack()">
+	      <ion-icon name="ios-arrow-back-outline"></ion-icon>
+	    </button>
+    <ion-title>登录</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+	<ion-list>
+	  <ion-item>
+	    <ion-label>用户</ion-label>
+	    <ion-input type="tel" placeholder="请输入手机号"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label>密码</ion-label>
+	    <ion-input type="password" placeholder="请输入密码"></ion-input>
+	  </ion-item>
+	</ion-list>
+
+	<button (click)="login()" ion-button full class="button-ios-danger">登录</button>
+	<br>
+	<button (click)="register()" ion-button full class="button-ios-white">注册</button>
+
+
+
+</ion-content>

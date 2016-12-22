@@ -7,6 +7,9 @@ import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
 import { FloorPage } from '../pages/floor/floor';
+import { ServePage } from '../pages/serve/serve';
+import { AboutPage } from '../pages/about/about';
+import { LoginPage } from '../pages/login/login';
 
 import { ValidateUtil } from '../utils/validate/validate';
 import { IProbar } from '../components/i-probar/i-probar'
@@ -21,7 +24,10 @@ import { IProbar } from '../components/i-probar/i-probar'
     CalculateIonicPage,
     HomePage,
     IProbar,
-    FloorPage
+    FloorPage,
+    ServePage,
+    AboutPage,
+    LoginPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -34,7 +40,10 @@ import { IProbar } from '../components/i-probar/i-probar'
     ListPage,
     CalculateIonicPage,
     HomePage,
-    FloorPage
+    FloorPage,
+    ServePage,
+    AboutPage,
+    LoginPage
   ],
   providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -5,15 +5,16 @@ export class Show {
   }
 
   showPrompt() {
+    console.log(".....")
     let prompt = this.alertCtrl.create({
-      title: 'Login',
-      message: "Enter a name for this new album you're so keen on adding",
-      inputs: [
-        {
-          name: 'title',
-          placeholder: 'Title'
-        },
-      ],
+      title: 'Login444',
+      message: "111",
+      // inputs: [
+      //   {
+      //     name: 'title',
+      //     placeholder: 'Title'
+      //   },
+      // ],
       buttons: [
         {
           text: 'Cancel',
