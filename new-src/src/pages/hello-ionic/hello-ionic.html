@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>每日行情</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="openHistory()">
+        <ion-icon name="ios-list-box-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-content>
+    <ion-row>
+      <ion-col style="font-size:1.6rem;">黄金au9999</ion-col>
+      <ion-col></ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <h2>286.28</h2>
+    <ion-row>
+    <ion-col>昨日收盘<br><font>258.22</font></ion-col>
+      <ion-col></ion-col>
+      <ion-col style="text-align:right">今日最高<br><font>298.18</font></ion-col>
+    </ion-row>
+  </ion-card-content>
+</ion-card>
+
+<ion-list class="usas">
+    <div ion-item>
+        <ion-icon name="md-barcode" item-left style="color:#142440">&nbsp;&nbsp;&nbsp;&nbsp;美元指数</ion-icon>
+        <ion-icon item-right>现时：1200.11<br>开盘：1200.11<br>昨日：1200.11</ion-icon>
+    </div>
+</ion-list>
+
+<ion-list class="infomation">
+    <div ion-item>
+      <p>行情走势猜一猜</p>
+    </div>
+    <div ion-item>
+      <span>今日黄金是否应该加仓买入？</span>
+      <ion-row>
+        <ion-col width-75>支持率 70%<i-probar bar="70" type="1" ></i-probar></ion-col>
+        <ion-col>
+            <button ion-button  clear icon-only>
+              <ion-icon color="danger" name='ios-thumbs-up' is-active="false"></ion-icon>
+            </button>
+        </ion-col>    
+      </ion-row>
+      <ion-row>
+        <ion-col width-75>反对率 90%<i-probar bar="90" type="2" ></i-probar></ion-col>
+        <ion-col>
+            <button ion-button clear icon-only>
+              <ion-icon color="primary"  name='ios-thumbs-down' is-active="false"></ion-icon>
+            </button>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <div ion-item>
+      <span>今日黄金是否应该加仓买入？</span>
+      <ion-row>
+        <ion-col width-75>支持率 70%<i-probar bar="70" type="1" ></i-probar></ion-col>
+        <ion-col>
+            <button ion-button  clear icon-only>
+              <ion-icon color="danger" name='ios-thumbs-up-outline' is-active="false"></ion-icon>
+            </button>
+        </ion-col>    
+      </ion-row>
+      <ion-row>
+        <ion-col width-75>反对率 90%<i-probar bar="90" type="2" ></i-probar></ion-col>
+        <ion-col>
+            <button ion-button clear icon-only>
+              <ion-icon color="primary"  name='ios-thumbs-down-outline' is-active="false"></ion-icon>
+            </button>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <!--   今日黄金是否应该加仓买入？   今日黄金是否应该减仓出售？本月黄金走势持续升高？ -->
+</ion-list>
+
+</ion-content>
