@@ -7,12 +7,15 @@ import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
 import { FloorPage } from '../pages/floor/floor';
+import { FloorpPage } from '../pages/floor/floorp';
 import { ServePage } from '../pages/serve/serve';
 import { AboutPage } from '../pages/about/about';
 import { LoginPage } from '../pages/login/login';
 
 import { ValidateUtil } from '../utils/validate/validate';
-import { IProbar } from '../components/i-probar/i-probar'
+import { IProbar } from '../components/i-probar/i-probar';
+
+import { NativeService} from '../providers/NativeService';
 
 
 @NgModule({
@@ -27,7 +30,8 @@ import { IProbar } from '../components/i-probar/i-probar'
     FloorPage,
     ServePage,
     AboutPage,
-    LoginPage
+    LoginPage,
+    FloorpPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -43,8 +47,9 @@ import { IProbar } from '../components/i-probar/i-probar'
     FloorPage,
     ServePage,
     AboutPage,
-    LoginPage
+    LoginPage,
+    FloorpPage
   ],
-  providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}, NativeService]
 })
 export class AppModule {}

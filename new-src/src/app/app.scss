@@ -42,10 +42,13 @@ page-index-ionic{
 .item-ios.item-block .item-inner {
     border-bottom: 1px solid #fff;
 }
-.item-ios-danger.item-ios p, h2{
+.item-ios-danger.item-ios h2{
     padding-top: 4px;
     color: #000;
     font-weight: 500;
+}
+.item-ios-danger p{
+    color: #666;
 }
 .item-block {
     min-height: 3.8rem;
@@ -73,13 +76,13 @@ page-index-ionic{
 .list-md .item-block .item-inner {
     border-bottom: 1px solid #fff;
 }
-.item-md.item-block .item-inner:first-child {
-    border-bottom: 1px solid #db5555;
-}
 .item-md-danger.item-md p, h2{
     padding-top: 4px;
     color: #000;
     font-weight: 500;
+}
+.item-ios-danger.item-md.item-block .item-inner {
+  border-bottom: 1px solid #db5555;
 }
 
 }

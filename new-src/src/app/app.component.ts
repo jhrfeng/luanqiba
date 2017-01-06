@@ -40,7 +40,7 @@ export class MyApp {
       { icon:'ios-calculator-outline', title: '收益测算', component: CalculateIonicPage },
       { icon:'ios-cash-outline', title: '充值服务', component: ServePage },
       { icon:'ios-contact-outline', title: '关于我们', component: AboutPage },
-      { icon:'ios-contact-outline', title: '关于我们', component: HomePage },
+      { icon:'ios-contact-outline', title: 'demo', component: HomePage },
     
     ];
   }
