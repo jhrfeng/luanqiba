@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-buttons start>
+      <button ion-button (click)="goBack()" icon-only>
+        <ion-icon name="ios-undo-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>资讯详情</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+        文章标题
+      </ion-card-title>
+      <ion-input type="text" placeholder="请输入文章标题"></ion-input>
+      <ion-card-title>
+        文章内容
+      </ion-card-title>
+      <ion-textarea rows="20" placeholder="请输入要发表的内容"></ion-textarea>
+    </ion-card-content>
+  </ion-card>
+
+  <button (click)="publish()" ion-button full class="button-ios-danger button-md-danger">发表</button>
+
+</ion-content>

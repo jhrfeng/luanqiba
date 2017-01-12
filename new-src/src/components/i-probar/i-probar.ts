@@ -6,7 +6,7 @@ import { Directive, ElementRef } from '@angular/core';
 export class IProbar {
 
     constructor(public element: ElementRef) {
-   		console.log('Hello IProbar Directive');
+
     }
     ngOnInit(): void {
 		var type = this.element.nativeElement.attributes[1].nodeValue;

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-buttons start>
+      <button ion-button (click)="goBack()" icon-only>
+        <ion-icon name="ios-undo-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>发表文章</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="langForm">
+    <ion-list radio-group formControlName="langs">
+      <ion-item>
+        <ion-label>免费发布</ion-label>
+        <ion-radio checked="true" value="rust"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>购买后查阅</ion-label>
+        <ion-radio checked="true" value="go"></ion-radio>
+      </ion-item>
+    </ion-list>  
+
+    <ion-input type="text" placeholder="请输入文章标题"></ion-input>
+
+    <ion-textarea rows="20" placeholder="请输入要发表的内容"></ion-textarea>
+
+    <button (click)="doSubmit($event)" ion-button full class="button-ios-danger button-md-danger">发表</button>
+
+  </form>
+
+
+</ion-content>

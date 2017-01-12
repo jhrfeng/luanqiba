@@ -11,6 +11,13 @@ import { FloorpPage } from '../pages/floor/floorp';
 import { ServePage } from '../pages/serve/serve';
 import { AboutPage } from '../pages/about/about';
 import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
+import { ForgetPage } from '../pages/forget/forget';
+import { PeoplePage } from '../pages/people/people';
+import { PeoplepPage } from '../pages/people/peoplep';
+import { PeoplelistPage } from '../pages/people/peoplelist';
+import { PeopleDetailPage } from '../pages/people/peopleDetail';
+
 
 import { ValidateUtil } from '../utils/validate/validate';
 import { IProbar } from '../components/i-probar/i-probar';
@@ -31,7 +38,13 @@ import { NativeService} from '../providers/NativeService';
     ServePage,
     AboutPage,
     LoginPage,
-    FloorpPage
+    FloorpPage,
+    RegisterPage,
+    ForgetPage,
+    PeoplePage,
+    PeoplepPage,
+    PeoplelistPage,
+    PeopleDetailPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -48,7 +61,13 @@ import { NativeService} from '../providers/NativeService';
     ServePage,
     AboutPage,
     LoginPage,
-    FloorpPage
+    FloorpPage,
+    RegisterPage,
+    ForgetPage,
+    PeoplePage,
+    PeoplepPage,
+    PeoplelistPage,
+    PeopleDetailPage
   ],
   providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}, NativeService]
 })

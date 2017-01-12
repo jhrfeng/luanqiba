@@ -84,5 +84,8 @@ page-index-ionic{
 .item-ios-danger.item-md.item-block .item-inner {
   border-bottom: 1px solid #db5555;
 }
+.header-md::after{
+    background-image: none;
+}
 
 }

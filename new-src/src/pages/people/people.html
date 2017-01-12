@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>大咖说</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="itemTapped()" icon-only>
+        <ion-icon name="ios-add-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="common">
+        大咖专栏
+      </ion-segment-button>
+      <ion-segment-button value="love">
+        已收藏
+      </ion-segment-button>
+      <ion-segment-button value="buy">
+        已订阅
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'common'" class="common">
+        <ion-row (click)="detailTapped()">
+          <ion-col width-75>今日黄金必然大涨行情分析</ion-col>
+          <ion-col>01-05 08:30</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-75>今日内部消息泄露</ion-col>
+          <ion-col>01-05 08:30</ion-col>
+        </ion-row>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'love'" class="love">
+      <ion-item (click)="peopleTapped()">
+        <ion-avatar item-left>
+          <img src="assets/img/login2.png">
+        </ion-avatar>
+        <h2>Marty McFly</h2>
+        <p>November 5, 1955</p>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'buy'" class="buy">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="assets/img/login2.png">
+        </ion-avatar>
+        <h2>Marty McFly</h2>
+        <p>November 5, 1955</p>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="assets/img/login2.png">
+        </ion-avatar>
+        <h2>Marty McFly</h2>
+        <p>November 5, 1955</p>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

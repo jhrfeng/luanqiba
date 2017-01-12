@@ -1,0 +1,43 @@
+page-forget {
+	.toolbar-background-ios {
+		background-color:#fff;
+	}
+	.toolbar-background-ios {
+	    border-color: #fff;
+	}
+	.bar-button-default-ios{
+	    color: #e13838;
+	}
+	.bar-button-ios {
+		font-size: 2.7rem;
+	}
+	.scroll-content {
+    	background-color:#fff;
+	}
+	.list-ios > .item-block:first-child {
+	    border-top: 0.55px solid #fff;
+	}
+	.list-ios > .item-block{
+	    border-bottom: 0.55px solid #673ab7;
+	    border-top: 0.55px solid #fff;
+	}
+	.list-ios > .item-block:last-child {
+	    border-bottom: 0.55px solid #673ab7;
+	}
+	.button-ios-danger{
+		border: 1px solid #ddd;
+		background-color: #e13838;
+		color: #fff;
+	}
+	.list-ios {
+	    margin: 2.5rem 2rem;
+	}
+	.limg{
+		text-align: center;
+	    margin: 0;
+	}
+	.header-md::after{
+		background-image: none;
+	}
+
+}

@@ -1,0 +1,14 @@
+page-peoplep {
+	.input-ios .text-input, .input-md .text-input{
+	    padding-left: 10px;
+	}
+	ion-textarea{
+		border-top: 1px solid #333;
+	}
+	ion-label {
+		font-size: 1.3rem;
+	}
+	.input-md .text-input, .input-ios .text-input{
+	    line-height: 25px;
+	}
+}
