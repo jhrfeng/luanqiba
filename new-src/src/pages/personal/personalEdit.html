@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+      返回
+    </button>
+    <ion-title></ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="eidt()">
+        <ion-icon name="md-checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+    </ion-item>
+  </ion-card>
+
+  <ion-list inset class="content">
+    <ion-item>
+      <ion-label>昵称</ion-label>
+      <ion-input type="text" placeholder="点击修改" ></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+

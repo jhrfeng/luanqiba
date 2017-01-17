@@ -11,6 +11,7 @@ page-peopleDetail {
 	}
 	.item-md, .item-ios{
     	border-bottom: 1px solid #ddd;
+    	background: #fbf9f9;
 	}
 	ion-col {
 		padding: 0;
@@ -29,12 +30,16 @@ page-peopleDetail {
 	}
 	.fllower {
 		padding-left: 10%;
-		color: #424242;
+		color: #db5555;
 		font-size: 1.5rem;
 	}
-	.button-clear-md-dark,
-	.button-clear-ios-dark{
-		color: #673ab3;
+	.button-clear-md-danger,.button-clear-ios-danger {
+		background-color: #fbf9f9;
+		color: #db5555;
+	}
+	.button-clear-md-dark, .button-clear-ios-dark {
+		background-color: #fbf9f9;
+		color: #db5555;
 	}
 	.card-header-md, .card-header-ios{
 	    /*color: #228ab9;*/

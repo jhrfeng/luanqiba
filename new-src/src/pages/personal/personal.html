@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title></ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="edit()">
+        <ion-icon name="ios-create-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="false">
+  <ion-card>
+    <ion-item>
+      <ion-row class="title">
+        <ion-col>关注 <br> <span>0</span></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col>订阅 <br> <span>12</span></ion-col>
+      </ion-row>
+      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+      <h2>小都比</h2>
+    </ion-item>
+  </ion-card>
+
+  <ion-list class="content">
+    <ion-row>
+      <ion-col width-65>会员等级</ion-col>
+      <ion-col>黄金会员</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-65>我的积分</ion-col>
+      <ion-col>500</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-65>绑定手机</ion-col>
+      <ion-col>136***49</ion-col>
+    </ion-row>
+  </ion-list>
+
+  <ion-list class="function">
+    <ion-row>
+      <ion-col>查阅我的发布</ion-col>
+    </ion-row>
+  </ion-list>
+
+</ion-content>
+
+
+

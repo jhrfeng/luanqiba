@@ -26,7 +26,10 @@ page-index-ionic{
 }
 .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
     color: #e0e0e0;
-}    
+} 
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios{
+    border-color: rgba(0, 0, 0, 0.0);
+}   
 .item-ios-danger {
     color: #e0e0e0;
     background-color: #db5555;

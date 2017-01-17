@@ -17,6 +17,9 @@ import { PeoplePage } from '../pages/people/people';
 import { PeoplepPage } from '../pages/people/peoplep';
 import { PeoplelistPage } from '../pages/people/peoplelist';
 import { PeopleDetailPage } from '../pages/people/peopleDetail';
+import { PersonalPage } from '../pages/personal/personal';
+import { PersonalEditPage } from '../pages/personal/personalEdit';
+
 
 
 import { ValidateUtil } from '../utils/validate/validate';
@@ -44,7 +47,9 @@ import { NativeService} from '../providers/NativeService';
     PeoplePage,
     PeoplepPage,
     PeoplelistPage,
-    PeopleDetailPage
+    PeopleDetailPage,
+    PersonalPage,
+    PersonalEditPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -67,7 +72,9 @@ import { NativeService} from '../providers/NativeService';
     PeoplePage,
     PeoplepPage,
     PeoplelistPage,
-    PeopleDetailPage
+    PeopleDetailPage,
+    PersonalPage,
+    PersonalEditPage
   ],
   providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}, NativeService]
 })
