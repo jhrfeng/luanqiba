@@ -1,31 +1,20 @@
 page-list {
 
-	.button-md, .button-ios{
+	.button-ios {
 	    margin: 0 0 0 -8px;
 	  /*  margin-left: -0.5em;*/
 	    padding: 0 1em;
 	    height: 1.8em;
 	    font-size: 2.0rem;
 	    color: #fff;
-	    background-color: #db5555;
-	    box-shadow: 0 0 0 0;
+	    background-color: #e13838;
 	} 
-	.button-ios.activated, .button-md.activated {
-		background-color: #db5555;
-	}
-	.toolbar-md {
-	    padding: 0; 
-	    min-height: 42px;
-	}
-	.toolbar-content-md{
-		background: #fff;
-	}
-	.toolbar-title-md{
-		background: #db5555;
+	.button-ios.activated {
+		background-color: #e13838;
 	}
 	.listInfo ion-row:first-child{
 		font-size: 1.6rem;
-		color:#db5555;
+		color:#e13838;
 	}
 	ion-row{
 		border-bottom: 0.8px solid #999;
@@ -38,39 +27,24 @@ page-list {
 		background:#d4e4ff;
 		/*color: #fff;*/
 	}
-	.toolbar-ios .segment-ios{
+	.toolbar-ios .segment-ios {
 	    background: #fff;
 	    border-bottom: 0.55px solid #ddd;
 	}
-	.toolbar-md .segment-md{
-	    background: #fff;
-	    border-bottom: 0.55px solid #ddd;
-	}
-
 	.toolbar-ios .segment-button {
     	max-width: 200px;
     }
     .segment-ios .segment-button:first-of-type, .segment-ios .segment-button:last-of-type{
 	    border-radius: 0 0 0 0;
 	}
-	.segment-ios .segment-button.segment-activated{
+	.segment-ios .segment-button.segment-activated {
 	    background-color: #607D8B;
     }
-    .segment-ios .segment-button{
+    .segment-ios .segment-button {
     	border-color: #607D8B;
     	color: #607D8B;
     }
-    .segment-md .segment-button.segment-activated{
-	    border-color: #607D8B;
-    	font-weight: bold;
-    	font-size:1.5rem;
-    }
-    .segment-md .segment-button{
-    	font-weight: bold;
-    	font-size:1.5rem;
-    	border-bottom-color: #fff;
-    }
-    .card-ios ion-card-header, .card-md ion-card-header{
+    .card-ios ion-card-header {
 	    /*color:#fff;
 	    background: #42555f;
 	    border-bottom: 1px solid #ddd;*/

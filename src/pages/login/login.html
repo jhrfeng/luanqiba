@@ -1,15 +1,18 @@
 <ion-header>
    <ion-navbar hideBackButton>
-	    <button ion-button (click)="goBack()">
-	      <ion-icon name="ios-arrow-back-outline"></ion-icon>
-	    </button>
-    <ion-title>登录</ion-title>
+    <ion-title></ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="goBack()">
+        <ion-icon name="ios-close"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-
 <ion-content>
-
+	<div class="limg">
+		<img src="assets/img/login2.png" height="150" width="150">
+	</div>
 	<ion-list>
 	  <ion-item>
 	    <ion-label>用户</ion-label>
@@ -22,9 +25,13 @@
 	  </ion-item>
 	</ion-list>
 
-	<button (click)="login()" ion-button full class="button-ios-danger">登录</button>
-	<br>
-	<button (click)="register()" ion-button full class="button-ios-white">注册</button>
+	<div style="margin:0 40px;">
+		<button ion-button full class="button-ios-danger">登录</button>
+	</div>
+	<p>没有账户？
+		<a (click)="register()" href="#">注册</a> 
+		<a (click)="forget()" href="#">忘记密码</a>
+	</p>
 
 
 
