@@ -11,7 +11,7 @@ page-personalEdit {
 	}
 	.item-md, .item-ios{
     	border-bottom: 1px solid #ddd;
-    	background: #fff;
+    	background: #db5555;
 	}
 	.bar-button-md {
 		font-size: 1.8rem;
@@ -32,6 +32,9 @@ page-personalEdit {
 	.list-ios[inset], .list-md[inset]{
 	    margin: 16px 0px;
 	    border-radius: 0px;
+	}
+	.item-input ion-label {
+		padding-left: 20px;
 	}
 
 

@@ -6,7 +6,7 @@
     </button>
     <ion-title></ion-title>
     <ion-buttons end>
-      <button ion-button (click)="eidt()">
+      <button ion-button (click)="saveAvatar()">
         <ion-icon name="md-checkmark"></ion-icon>
       </button>
     </ion-buttons>
@@ -16,7 +16,7 @@
 <ion-content>
   <ion-card>
     <ion-item>
-      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+      <img (click)="presentActionSheet()" [src]="avatarPath" >
     </ion-item>
   </ion-card>
 

@@ -20,12 +20,11 @@ import { PeopleDetailPage } from '../pages/people/peopleDetail';
 import { PersonalPage } from '../pages/personal/personal';
 import { PersonalEditPage } from '../pages/personal/personalEdit';
 
-
-
 import { ValidateUtil } from '../utils/validate/validate';
 import { IProbar } from '../components/i-probar/i-probar';
 
-import { NativeService} from '../providers/NativeService';
+import { NativeService } from '../providers/NativeService';
+import { HttpService } from '../providers/HttpService';
 
 
 @NgModule({
@@ -76,6 +75,6 @@ import { NativeService} from '../providers/NativeService';
     PersonalPage,
     PersonalEditPage
   ],
-  providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}, NativeService]
+  providers: [ValidateUtil, {provide: ErrorHandler, useClass: IonicErrorHandler}, NativeService, HttpService]
 })
 export class AppModule {}
