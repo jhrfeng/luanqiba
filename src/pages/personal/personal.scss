@@ -22,6 +22,9 @@ page-personal {
 	ion-label {
 		text-align: center;
 	}
+	ion-col{
+		color:#592929;
+	}
 	ion-card img {
 		display: inline;
 	    width: 30%;
@@ -35,7 +38,7 @@ page-personal {
 	}
 	.title{
 		position: absolute;
-		margin-top: 25%;
+		margin-top: 21%;
 	}
 	.title ion-col:first-child{
 		text-align: center;
@@ -61,6 +64,7 @@ page-personal {
 		text-align: right;
 		padding-right: 15px;
 		font-weight: bold;
+		color: #3a3737;
 	}
 	.content > ion-row ion-col[width-65]{
 		padding-left: 20px;
@@ -74,7 +78,7 @@ page-personal {
 	.function > ion-row{
 		border-top: 1px solid #ddd;
 		line-height: 3rem;
-		color: #e23f33;
+		color: #a91010;
 		font-weight: bold;
 	}
 

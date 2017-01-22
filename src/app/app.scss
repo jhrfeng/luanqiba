@@ -19,6 +19,13 @@ page-index-ionic{
 .toolbar-background-ios, .toolbar-background-md {
     background-color: #db5555;
 }   
+/*#sign > .button-small-md, #sign > .button-small-ios{*/
+#sign{    
+    float: right;
+    margin-top: -1px;
+    color: #e8e3e3;
+    background-color: #ec9f2e;
+}
 .toolbar-title-ios{
     color: #e0e0e0;
     font-size: 1.5rem;
@@ -31,6 +38,7 @@ page-index-ionic{
 }
 .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
     color: #e0e0e0;
+    font-size: 2.2rem;
 } 
 .header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios{
     border-color: rgba(0, 0, 0, 0.0);
@@ -52,11 +60,12 @@ page-index-ionic{
 }
 .item-ios-danger.item-ios h2{
     padding-top: 4px;
-    color: #000;
+    color: #eac3c3;
     font-weight: 500;
 }
 .item-ios-danger p{
-    color: #666;
+    color: #dca45b;
+    font-size: 1.1rem;
 }
 .item-block {
     min-height: 4.8rem;
@@ -71,6 +80,7 @@ page-index-ionic{
 }
 .bar-button-default-md, .bar-button-default.bar-button-md-default, .bar-button-clear-md-default {
     color: #e0e0e0;
+    font-size: 2.1rem;
 }    
 .item-md-danger {
     color: #e0e0e0;
@@ -86,7 +96,7 @@ page-index-ionic{
 }
 .item-md-danger.item-md p, h2{
     padding-top: 4px;
-    color: #000;
+    color: #eac3c3;
     font-weight: 500;
 }
 .item-ios-danger.item-md.item-block .item-inner {

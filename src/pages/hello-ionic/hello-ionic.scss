@@ -22,10 +22,11 @@ page-hello-ionic {
 		padding-bottom: 15px;
 	}
 	ion-col{
-		color:#142440
+		color:#592929;
 	}
 	ion-col font{
 		color: #fff;
+		font-size: 1.5rem;
 	}
 	.usas{
 	    max-height: 60px;
@@ -40,14 +41,14 @@ page-hello-ionic {
 		font-size: 1.6rem;
 	}
 	.item-inner > ion-icon {
-		line-height: 1.6rem;
-    	font-size: 1.4rem;
+		line-height: 1.8rem;
+    	font-size: 1.5rem;
     	color: #fff;
 	}
 	.infomation p{
 		padding-left: 8px;
     	color:#242f40;
-    	font-size: 1.2rem;
+    	font-size: 1.3rem;
     	font-weight:bold;
 	}
 	.item-ios p, .item-md p{
@@ -67,8 +68,11 @@ page-hello-ionic {
 		font-size: 1.5rem;
 /*		font-weight:bold;
 		color: #092d6b;*/
-		line-height: 2.5rem;
+		line-height: 3.5rem;
     	color: #3F51B5;
+	}
+	.infomation ion-row{
+		height: 2.5rem;
 	}
 	ion-col[width-75] {
 	    font-size: 1.4rem;
@@ -83,7 +87,7 @@ page-hello-ionic {
     	border-top: 1px solid #fff;
 	}
 	.button-ios, .button-md {
-    	margin-top: -0.5em; 
+    	margin-top: -0.8em; 
    		height: 2em;
    		font-size: 2.4rem;
    	}

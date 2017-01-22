@@ -76,3 +76,37 @@ export class MyApp {
     this.nav.setRoot(PersonalPage);
   }
 }
+
+
+
+
+
+
+
+
+
+
+// import { Config } from 'ionic-angular';
+// import { TranslateService } from 'ng2-translate';
+
+// ...
+
+// constructor( translate: TranslateService, private config: Config ) {
+//     this.translate.setDefaultLang('no_nb');
+//     this.translate.use('no_nb');
+//     this.initializeApp();
+
+// }
+
+// initializeApp() {
+//     this.platform.ready().then(() => {
+//       // Okay, so the platform is ready and our plugins are available.
+//       // Here you can do any higher level native things you might need.
+//       StatusBar.styleDefault();
+//       this.translate.get('BACK').subscribe((res: string) => {
+//         // Let android keep using only arrow
+//         this.config.set('ios', 'backButtonText', res);
+//        // To cange label for all platforms: this.config.set('backButtonText', res);
+//       });
+//     });
+//   }

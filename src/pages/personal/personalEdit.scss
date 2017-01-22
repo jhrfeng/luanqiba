@@ -36,6 +36,9 @@ page-personalEdit {
 	.item-input ion-label {
 		padding-left: 20px;
 	}
-
+	.list-ios[inset] > .item:last-child,
+	.list-md[inset] > .item:last-child{
+		background-color: #fff;
+	}
 
 }

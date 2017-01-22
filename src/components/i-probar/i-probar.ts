@@ -11,10 +11,10 @@ export class IProbar {
     ngOnInit(): void {
 		var type = this.element.nativeElement.attributes[1].nodeValue;
 		if(type=="1"){
-			this.element.nativeElement.style.background = "#f75858";
+			this.element.nativeElement.style.background = "#db5555";
 		}
 		else if(type=="2"){
-			this.element.nativeElement.style.background = "#4a8af5";
+			this.element.nativeElement.style.background = "#6a92d6";
 		}
 		this.element.nativeElement.style.marginLeft = "20px";
 		this.element.nativeElement.style.paddingRight =
