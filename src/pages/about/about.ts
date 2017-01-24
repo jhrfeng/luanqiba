@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  templateUrl: 'about.html',
+	selector: 'page-serve',
+    templateUrl: 'about.html'
 })
 export class AboutPage {
 

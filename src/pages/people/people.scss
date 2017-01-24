@@ -1,6 +1,6 @@
 page-people {
 
-	.button-md, .button-ios{
+	.button-ios{
 	    margin: 0 0 0 -8px;
 	  /*  margin-left: -0.5em;*/
 	    padding: 0 1em;
@@ -10,28 +10,13 @@ page-people {
 	    background-color: #db5555;
 	    box-shadow: 0 0 0 0;
 	} 
-	.button-ios.activated, .button-md.activated {
+	.button-ios.activated{
 		background-color: #db5555;
-	}
-	.toolbar-md {
-	    padding: 0; 
-	    min-height: 42px;
-	}
-	.toolbar-content-md{
-		background: #fff;
-	}
-	.toolbar-title-md{
-		background: #db5555;
 	}
 	.toolbar-ios .segment-ios{
 	    background: #fff;
 	    border-bottom: 0.55px solid #ddd;
 	}
-	.toolbar-md .segment-md{
-	    background: #fff;
-	    border-bottom: 1px solid #ddd;
-	}
-
 	.toolbar-ios .segment-button {
     	max-width: 200px;
     }
@@ -44,17 +29,6 @@ page-people {
     .segment-ios .segment-button{
     	border-color: #607D8B;
     	color: #607D8B;
-    }
-    .segment-md .segment-button.segment-activated{
-	    border-color: #607D8B;
-    	font-weight: bold;
-    	font-size:1.5rem;
-    }
-    .segment-md .segment-button{
-    	font-weight: bold;
-    	font-size:1.5rem;
-    	border-bottom-color: #fff;
-    	color: #31718e;
     }
     ion-row{
     	border-bottom: 1px solid #ddd;
@@ -69,7 +43,7 @@ page-people {
 		line-height: 4rem;
 		font-weight: bold;
     }
-    .item-md, .item-ios{
+    .item-ios{
     	border-bottom: 1px solid #ddd;
     }
 

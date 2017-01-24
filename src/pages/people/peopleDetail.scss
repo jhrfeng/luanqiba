@@ -1,15 +1,15 @@
 page-peopleDetail {
-	.content-md, .content-ios{
+	.content-ios{
 		background: #efeaea;
 	}
 	.scroll-content{
 		margin-top: 50px;
 	}
-	.card-ios, .card-md{
+	.card-ios{
 	    margin: 0px 0px 1px 0px;
 	    width: 100%;
 	}
-	.item-md, .item-ios{
+	.item-ios{
     	border-bottom: 1px solid #ddd;
     	background: #fbf9f9;
 	}
@@ -19,11 +19,11 @@ page-peopleDetail {
 	ion-row ion-col:first-child {
 		border-right: 2px solid #ddd;
 	}
-	.item-md h2, .item-ios h2{
+	.item-ios h2{
 		font-weight: bold;
 		font-size: 1.8rem;
 	}
-	.button-md, .button-ios {
+	.button-ios {
 		margin: 0;
 		font-weight: bold;
 		font-size: 1.5rem;
@@ -33,26 +33,26 @@ page-peopleDetail {
 		color: #db5555;
 		font-size: 1.5rem;
 	}
-	.button-clear-md-danger,.button-clear-ios-danger {
+	.button-clear-ios-danger {
 		background-color: #fbf9f9;
 		color: #db5555;
 	}
-	.button-clear-md-dark, .button-clear-ios-dark {
+	.button-clear-ios-dark {
 		background-color: #fbf9f9;
 		color: #db5555;
 	}
-	.card-header-md, .card-header-ios{
+	.card-header-ios{
 	    /*color: #228ab9;*/
 	    color: #222;
 	    font-weight: bold;
 	    border-bottom: 1px solid #ddd;
 	}
-	.card-content-md, .card-content-ios {
+	.card-content-ios {
 	    line-height: 2;
 	    color: #222;
 	 /*   color: #163a77;*/
 	}
-	.item-ios, .item-md{
+	.item-ios{
 	    font-size: 1.4rem;
 	    color: #343434;
 	}
@@ -68,7 +68,6 @@ page-peopleDetail {
 	ion-textarea{
 		border-bottom: 1px solid #ddd;
 	}
-	.button-clear-md-light,
 	.button-clear-ios-light{
 		float: right;
 		margin-top: -30px;

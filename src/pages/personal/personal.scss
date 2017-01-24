@@ -1,22 +1,19 @@
 page-personal {
-	.content-md, .content-ios{
+	.content-md{
 		background: #efeaea;
 	}
 	.scroll-content{
 		margin-top: 50px;
 	}
-	.card-ios, .card-md{
+	.card-ios{
 	    margin: 0px 0px 1px 0px;
 	    width: 100%;
 	}
-	.item-md, .item-ios{
+	.item-ios{
     	border-bottom: 1px solid #ddd;
     	background: #db5555;
 	}
-	.bar-button-md {
-		font-size: 1.8rem;
-	}
-	.label-md,.label-ios {
+	.label-ios {
 	    margin: 1px 8px 23px 0;
 	}
 	ion-label {
@@ -32,7 +29,7 @@ page-personal {
 	    -webkit-border-radius: 50%;
 	    border: 2px solid #ddd;
 	}
-	.item-md h2, .item-ios h2{
+	.item-ios h2{
 		color: #f3f3f3;
 		font-size: 1.4rem;
 	}
@@ -53,9 +50,6 @@ page-personal {
 	.content{
 		text-align: center;
 	}
-	.button-md {
-		height: 2.6rem;
-	}
 	.content > ion-row{
 		border-top: 1px solid #ddd;
 		line-height: 3rem;
@@ -71,7 +65,7 @@ page-personal {
 		text-align: left;
 		font-weight: 200;
 	}
-	.list-md, .list-ios{
+	.list-ios{
 	    margin: 0px 0 16px 0;
 	    background: #fff;
 	}

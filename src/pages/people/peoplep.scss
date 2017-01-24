@@ -1,5 +1,5 @@
 page-peoplep {
-	.input-ios .text-input, .input-md .text-input{
+	.input-ios .text-input{
 	    padding-left: 10px;
 	}
 	ion-textarea{
@@ -8,7 +8,7 @@ page-peoplep {
 	ion-label {
 		font-size: 1.3rem;
 	}
-	.input-md .text-input, .input-ios .text-input{
+	.input-ios .text-input{
 	    line-height: 25px;
 	}
 }

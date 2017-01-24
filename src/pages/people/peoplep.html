@@ -1,11 +1,14 @@
 <ion-header>
-  <ion-navbar hideBackButton>
-    <ion-buttons start>
-      <button ion-button (click)="goBack()" icon-only>
-        <ion-icon name="ios-undo-outline"></ion-icon>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title></ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="doSubmit($event)">
+        <ion-icon name="md-checkmark"></ion-icon>
       </button>
     </ion-buttons>
-    <ion-title>发表文章</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -25,8 +28,6 @@
     <ion-input type="text" placeholder="请输入文章标题"></ion-input>
 
     <ion-textarea rows="20" placeholder="请输入要发表的内容"></ion-textarea>
-
-    <button (click)="doSubmit($event)" ion-button full class="button-ios-danger button-md-danger">发表</button>
 
   </form>
 

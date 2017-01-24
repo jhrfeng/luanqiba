@@ -40,10 +40,21 @@ export class HttpService {
   }
 
 
+  public getServer(url: string) {
+    let headers = new Headers({'Content-Type': 'application/json'});
+    return this.http.get(url, new RequestOptions({headers: headers}))
+      .toPromise()
+      .then(res => this.handleSuccess(res.json()))
+      .catch(error => this.handleError(error));
+  }
+
+
   private handleSuccess(result) {
-    if (result && !result.success) {//由于和后台约定好,所有请求均返回一个包含success,msg,data三个属性的对象,所以这里可以这样处理
-      alert(result.msg);//这里使用ToastController
-    }
+    // if(result 
+    //     //&& !result.success
+    //   ) {//由于和后台约定好,所有请求均返回一个包含success,msg,data三个属性的对象,所以这里可以这样处理
+    //     //alert(result.msg);//这里使用ToastController
+    // }
     return result;
   }
 
