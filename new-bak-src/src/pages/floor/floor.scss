@@ -1,0 +1,49 @@
+page-floor {
+	.content-ios,.content-md {
+	    background-color: #ece5a0;
+	}
+	.card-ios p,.card-md p {
+		color: #dcad5b;
+	    font-size: 1.1rem;
+	    font-weight: 600;
+	}
+	.card-ios p:first-child,.card-md p:first-child {
+		color: #121f33;
+	    font-size: 1.4rem;
+	    font-weight: 600;
+	}
+	.comment.item-ios ion-avatar img,
+	.comment.item-md ion-avatar img  {
+	    max-width: 1.6rem;
+	    max-height: 1.6rem;
+	}
+	.comment{
+		font-size: 1.1rem;
+		color: #795548;
+		border-top: 0.1rem solid #ddd;
+    	line-height: 1.8rem;
+	}
+	.comment ion-row{
+		padding: 2px 0;
+	}
+	.comment ion-col[width-20]{
+		color: #000;
+		margin-left: 0.8em;
+		text-overflow:clip;
+		overflow:hidden; 
+		white-space:nowrap;
+	}
+	.comment .button-ios,
+	.comment .button-md {
+	    height: 1.2em;
+	    color: 1rem;
+	}
+	.alert-ios .alert-input,
+	.alert-md .alert-input{
+		line-height: 40px;
+	}
+	.button-clear-md-primary,
+	.button-clear-ios-primary {
+    	color: #ca5d0d;
+	}
+}

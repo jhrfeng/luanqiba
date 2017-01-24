@@ -1,0 +1,44 @@
+page-personalEdit {
+	.content-md, .content-ios{
+		background: #efeaea;
+	}
+	.scroll-content{
+		margin-top: 50px;
+	}
+	.card-ios, .card-md{
+	    margin: 0px 0px 1px 0px;
+	    width: 100%;
+	}
+	.item-md, .item-ios{
+    	border-bottom: 1px solid #ddd;
+    	background: #db5555;
+	}
+	.bar-button-md {
+		font-size: 1.8rem;
+	}
+	ion-label {
+		text-align: center;
+	}
+	ion-card img {
+		display: inline;
+	    width: 30%;
+	    border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border: 2px solid #ddd;
+	}
+	.content{
+		text-align: center;
+	}
+	.list-ios[inset], .list-md[inset]{
+	    margin: 16px 0px;
+	    border-radius: 0px;
+	}
+	.item-input ion-label {
+		padding-left: 20px;
+	}
+	.list-ios[inset] > .item:last-child,
+	.list-md[inset] > .item:last-child{
+		background-color: #fff;
+	}
+
+}

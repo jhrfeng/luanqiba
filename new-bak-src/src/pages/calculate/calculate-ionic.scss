@@ -1,0 +1,47 @@
+page-calculate-ionic {
+
+ion-navbar {
+    .toolbar-title {
+        margin-right: 22px; // Maybe you don't need this, depending how your layout looks like
+    }
+
+    // Here is how you can center your title
+    &.toolbar {
+        padding-left: 6px;
+    }
+}
+
+	.input-ios[placeholder],
+	.input-md[placeholder]{
+		padding-left: 20%;
+	}
+	.card-ios ion-card-header,.card-md ion-card-header{
+		color: #333;
+	}
+	.card-ios ion-card-header span,.card-md ion-card-header span{
+		color: #e13838;
+		font-weight: bold;
+	}
+	.card-ios ion-card-header i, .card-md ion-card-header i{
+		color: #000;
+		font-weight: bold;
+	}
+	.card-ios, .card-md {
+    	margin: 8px 8px 8px 8px;
+	}
+	.card-ios ion-card-header, .card-md ion-card-header {
+   		padding: 12px;
+	}
+
+	.item-input .label-md,.item-input .label-ios{
+	    color: #636363;
+	    font-size: 1.4rem;
+	}
+	ion-label[fixed] {
+	    min-width: 140px;
+	}
+	.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus) .item-inner {
+	    border-bottom-color: #ddd;
+	    box-shadow: inset 0 -1px 0 0 #ddd;
+	}
+}

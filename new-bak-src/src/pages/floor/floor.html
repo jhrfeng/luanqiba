@@ -1,0 +1,142 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>炫耀走廊</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="addFloor()" icon-only>
+        <ion-icon name="ios-add-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="cards-bg social-cards">
+
+<ion-card>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+    </ion-avatar>
+    <h2>小都比</h2>
+    <p>黄金会员</p>
+  </ion-item>
+  <ion-card-content>
+    <p>哥就是这么牛逼，买个几十万玩一玩</p>
+  </ion-card-content>
+  <img padding src="http://goldapp.oss-cn-shanghai.aliyuncs.com/huangjin.png">
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='thumbs-up'></ion-icon>
+        12 喜欢
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='text'></ion-icon>
+        4 评论
+      </button>
+    </ion-col>
+    <ion-col>
+      <button (click)="showPrompt()"
+        ion-button color="primary" clear small icon-left>
+        <ion-icon name='ios-chatboxes'></ion-icon>
+        回复
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col center text-right>
+      <ion-note>
+        11h 以前
+      </ion-note>
+    </ion-col>
+  </ion-row>
+  <div class="comment">
+    <ion-row>
+      <ion-col width-20>小都比:</ion-col>这个哥们牛逼啊，给32个赞<ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-20>嫦娥:</ion-col>没有我牛逼，我都买了20W<ion-col></ion-col>
+    </ion-row>
+  </div>
+</ion-card>
+
+
+
+<ion-card>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+    </ion-avatar>
+    <h2>小都比</h2>
+    <p>黄金会员</p>
+  </ion-item>
+  <img padding src="http://goldapp.oss-cn-shanghai.aliyuncs.com/huangjin.png">
+  <ion-card-content>
+    <p>哥就是这么牛逼，买个几十万玩一玩</p>
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='thumbs-up'></ion-icon>
+        12 喜欢
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='text'></ion-icon>
+        4 评论
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h 以前
+      </ion-note>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+
+<ion-card>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="http://ionicframework.com/dist/preview-app/www/assets/img/marty-avatar.png">
+    </ion-avatar>
+    <h2>小都比</h2>
+    <p>黄金会员</p>
+  </ion-item>
+  <img padding src="http://goldapp.oss-cn-shanghai.aliyuncs.com/huangjin.png">
+  <ion-card-content>
+    <p>哥就是这么牛逼，买个几十万玩一玩</p>
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='thumbs-up'></ion-icon>
+        12 喜欢
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='text'></ion-icon>
+        4 评论
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h 以前
+      </ion-note>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+</ion-content>
+
+<style>
+  .social-cards ion-col {
+    padding: 0;
+  }
+</style>

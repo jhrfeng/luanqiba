@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-buttons start>
+      <button ion-button (click)="goBack()" icon-only>
+        <ion-icon name="ios-undo-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>资讯详情</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-item>
+    <ion-thumbnail  item-left>
+      <img src="assets/img/login2.png">
+    </ion-thumbnail >
+    <h2>小都比</h2>
+  </ion-item>
+  <ion-row>
+    <ion-col>
+      <button ion-button color="danger" clear full icon-left>
+        <ion-icon name='thumbs-up'></ion-icon>
+        关注
+        <span class="fllower">12</span>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="dark" clear full icon-left>
+        <ion-icon name='text'></ion-icon>
+        订阅
+        <span class="fllower">12</span>
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+<ion-card style="margin-top:10px;">
+  <ion-card-header>
+    今日黄金大涨行情大揭秘  
+  </ion-card-header>
+  <ion-card-content>
+    以淡橘色系的墙砖来铺设这一厨房中的墙面，以开放式的空间格局来打造，以吧台隔断来区分出厨房区域，顶部两盏并排吊灯让吧台区域显得宽敞舒适，平日里还能够直接把这个吧台作为用餐区来使用，吧台下方还设有储物区域用于收纳厨房中的餐具哦。
+  </ion-card-content>
+</ion-card>
+
+<ion-card style="margin-top:10px;">
+  <ion-list>
+    <ion-list-header>
+      精彩评论
+      <button ion-button icon-only clear color="primary">
+        <ion-icon name="text"></ion-icon>
+      </button>
+<!--       <button ion-button color="primary" clear small icon-left>
+        <ion-icon name='text'>回复</ion-icon>
+      </button>  -->
+    </ion-list-header>
+    <div>
+      <ion-textarea rows="2" placeholder="请输入评论内容">
+      </ion-textarea>
+      <button ion-button color="light" clear small>
+          提交
+      </button> 
+    </div>
+    <ion-item>Terminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator IITerminator II</ion-item>
+    <ion-item>The Empire Strikes Back</ion-item>
+    <ion-item>Blade Runner</ion-item>
+  </ion-list>
+</ion-card>
+
+</ion-content>
+
+
+

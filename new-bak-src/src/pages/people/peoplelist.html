@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-buttons start>
+      <button ion-button (click)="goBack()" icon-only>
+        <ion-icon name="ios-undo-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>大咖资讯</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="common">
+      <ion-row (click)="detailTapped()">
+        <ion-col width-75>今日黄金必然大涨行情分析</ion-col>
+        <ion-col>01-05 08:30</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col width-75>今日内部消息泄露</ion-col>
+        <ion-col>01-05 08:30</ion-col>
+      </ion-row>
+  </ion-list>
+</ion-content>
