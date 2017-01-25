@@ -72,7 +72,7 @@ private handleError(error: Response | any) {
       console.error(msg+'，请检查路径是否正确');
     }
     console.log(error);
-    alert(msg);//这里使用ToastController
+    // alert(msg);//这里使用ToastController
     return {success: false, msg: msg};
   }
 
