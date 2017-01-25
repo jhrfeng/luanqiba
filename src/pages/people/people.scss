@@ -36,12 +36,17 @@ page-people {
     ion-row ion-col{
 		color: #c8c7cc;
 		line-height: 4rem;
+		text-overflow: ellipsis;
+	    overflow: hidden;
+	    -webkit-text-overflow: ellipsis;
+	    white-space:nowrap;
     }
     ion-row ion-col[width-75]{
 		color: #262626;
 		font-size: 1.5rem;
 		line-height: 4rem;
 		font-weight: bold;
+		padding-left: 1rem;
     }
     .item-ios{
     	border-bottom: 1px solid #ddd;

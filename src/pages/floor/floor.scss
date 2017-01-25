@@ -20,17 +20,18 @@ page-floor {
 		font-size: 1.1rem;
 		color: #795548;
 		border-top: 0.1rem solid #ddd;
-    	line-height: 1.8rem;
+    	line-height: 1.2rem;
 	}
 	.comment ion-row{
 		padding: 2px 0;
 	}
 	.comment ion-col[width-20]{
 		color: #000;
-		margin-left: 0.8em;
+		margin-right: 0.8em;
 		text-overflow:clip;
 		overflow:hidden; 
 		white-space:nowrap;
+		text-align: right;
 	}
 	.comment .button-ios{
 	    height: 1.2em;
