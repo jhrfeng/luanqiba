@@ -7,13 +7,11 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { CalculateIonicPage } from '../pages/calculate/calculate-ionic';
 import { FloorPage } from '../pages/floor/floor';
-import { ServePage } from '../pages/serve/serve';
+import { ListPage } from '../pages/list/list';
 import { AboutPage } from '../pages/about/about';
 import { LoginPage } from '../pages/login/login';
 import { PeoplePage } from '../pages/people/people';
 import { PersonalPage } from '../pages/personal/personal';
-
-
 
 @Component({
   selector: 'page-index-ionic',
@@ -35,10 +33,11 @@ export class MyApp {
     // set our app's pages
     this.pages = [
       { icon:'ios-home-outline', title: '首页', component: HelloIonicPage },
+      { icon:'ios-cash-outline', title: '历史行情', component: ListPage },
       { icon:'ios-thumbs-up-outline', title: '炫耀走廊', component: FloorPage },
       { icon:'ios-people-outline', title: '大咖说', component: PeoplePage },
       { icon:'ios-calculator-outline', title: '收益测算', component: CalculateIonicPage },
-      { icon:'ios-cash-outline', title: '充值服务', component: ServePage },
+      // { icon:'ios-cash-outline', title: '充值服务', component: ServePage },
       { icon:'ios-contact-outline', title: '关于我们', component: AboutPage },
     ];
   }

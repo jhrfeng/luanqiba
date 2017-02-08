@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ListPage } from '../list/list';
+// import { ListPage } from '../list/list';
 import {ServerService} from "../../providers/ServerService";
 
 
@@ -9,6 +9,8 @@ import {ServerService} from "../../providers/ServerService";
   templateUrl: 'hello-ionic.html'
 })
 export class HelloIonicPage {
+	// @ViewChild(Nav) nav: Nav;
+
 	agree: string = "80";
 	gold: any = {latestpri:0, openpri:0, yespri:0};
 	usaMoney: any = {openPri:0, yesPic:0, buyPic:0};
@@ -34,10 +36,11 @@ export class HelloIonicPage {
 	    })		
 	}
 
-	openHistory(){
-	    // navigate to the new page if it is not the current page
-	    this.navCtrl.push(ListPage);
-	}
+	// openHistory(){
+	//     // navigate to the new page if it is not the current page
+	//     this.nav.setRoot(ListPage);
+	//     // this.navCtrl.push(ListPage);
+	// }
 
 
 }
